@@ -78,3 +78,22 @@ For a full list of dependencies, see `requirements.txt`.
 
 ## Contributions
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+
+
+
+
+-------------------------------------------------
+
+## LinkedIn Commentor
+Change line 44 (Prompt about your company/personal brand) and 87 (Linkedin post url where you want the AI to comment)
+- You need the install the dependencies in the requirement.txt
+
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+pip list
+
+
+# Before running the script, close all chrome tabs and run chrome in debug mode
+-- open -na "Google Chrome" --args --remote-debugging-port=9222 --user-data-dir="/Users/dheeraj/Library/Application Support/Google/Chrome" --profile-directory="Default"
+-- ensure your linkedin is logged in default mode
